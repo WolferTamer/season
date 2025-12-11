@@ -4,4 +4,4 @@ function sayHello(name: string): void {
 
 sayHello("TypeScript Node Project");
 
-console.log("wow")
+console.log("wow");

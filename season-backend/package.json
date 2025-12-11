@@ -15,6 +15,7 @@
   "devDependencies": {
     "@types/node": "^25.0.0",
     "dotenv": "^17.2.3",
+    "eslint": "^9.39.1",
     "nodemon": "^3.1.11",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
