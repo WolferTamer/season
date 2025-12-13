@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch src --exec ts-node src/index.ts",
-    "start": "ts-node src/index.ts",
+    "dev": "nodemon --watch src --exec tsx src/index.ts",
+    "start": "node dist/index.js",
     "build": "tsc"
   },
   "keywords": [],
@@ -19,6 +19,7 @@
     "eslint": "^9.39.1",
     "nodemon": "^3.1.11",
     "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
